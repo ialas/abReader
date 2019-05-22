@@ -28,6 +28,6 @@ An example:
 ### Step 5: Exporting Results.
 1. Click "Download Data", which should prompt you with a csv file named in the following fashion:
 
-"data-(the current date:)2019-05-22-ppm-(your ppm value).csv"
+`"data-(the current date:)2019-05-22-ppm-(your ppm value).csv"`
 
 2. You can open the results in Excel for ease of viewing.
