@@ -10,11 +10,11 @@
 1. In app.r, change the path of source("text") to the working directory that support.r was stored in.
 An example:
 
-support("C:/Users/User1/Documents/R/abReader/support.r")
+`support("C:/Users/User1/Documents/R/abReader/support.r")`
 
 2. In app.r, change the path of abTableChar to match the relevant AntiBase database. An example:
 
-abTableChar = fread("C:/Users/User1/Documents/R/abReader/antibaseTable.csv", header = TRUE)
+`abTableChar = fread("C:/Users/User1/Documents/R/abReader/antibaseTable.csv", header = TRUE)`
 
 ### Step 3: Display Shiny App.
 1. Click the button next to |> Run App, and click "Run External" (There are issues with running the Shiny server in R Studio).
