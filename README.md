@@ -10,7 +10,7 @@
 1. In app.r, change the path of source("text") to the working directory that support.r was stored in.
 An example:
 
-`support("C:/Users/User1/Documents/R/abReader/support.r")`
+`source("C:/Users/User1/Documents/R/abReader/support.r")`
 
 2. In app.r, change the path of abTableChar to match the relevant AntiBase database. An example:
 
